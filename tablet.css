@@ -1,0 +1,22 @@
+footer{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.cards-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr 1fr;
+    margin: 7rem auto 0;
+}
+.cards img{
+    height: 40%;
+}
+.cards h2{
+    font-size: 2.5rem;
+}
+.blog_post-container {
+    padding: 0;
+}
+.cards_blog img{
+    margin: 1rem 0;
+}
